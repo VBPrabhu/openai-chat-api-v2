@@ -1,5 +1,5 @@
 const express = require('express');
-const openaiApi = require('../config/openai');
+const openaiApi = require('../openai');
 const router = express.Router();
 
 router.get('/v1/models', async (req, res) => {
